@@ -15,6 +15,7 @@
 		DB49661D26C621FE00A89EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB49661C26C621FE00A89EE9 /* Assets.xcassets */; };
 		DB49662026C621FE00A89EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB49661E26C621FE00A89EE9 /* LaunchScreen.storyboard */; };
 		DB49662326C621FE00A89EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB49662226C621FE00A89EE9 /* main.m */; };
+		DB49662A26C6250C00A89EE9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB49662926C6250C00A89EE9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DB49661F26C621FE00A89EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB49662126C621FE00A89EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB49662226C621FE00A89EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB49662926C6250C00A89EE9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		DB49660126C621FD00A89EE9 = {
 			isa = PBXGroup;
 			children = (
+				DB49662926C6250C00A89EE9 /* .gitignore */,
 				DB49660C26C621FD00A89EE9 /* GHZletterpink */,
 				DB49660B26C621FD00A89EE9 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB49662A26C6250C00A89EE9 /* .gitignore in Resources */,
 				DB49662026C621FE00A89EE9 /* LaunchScreen.storyboard in Resources */,
 				DB49661D26C621FE00A89EE9 /* Assets.xcassets in Resources */,
 				DB49661826C621FD00A89EE9 /* Main.storyboard in Resources */,
@@ -304,7 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ghz.GHZletterpink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ghz.GHZletterpink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

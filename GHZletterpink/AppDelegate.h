@@ -13,7 +13,7 @@
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;
-
+@property (nonatomic, strong)UIWindow *window;
 
 @end
 
